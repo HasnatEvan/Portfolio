@@ -1,0 +1,68 @@
+[
+    {
+      "id": 1,
+      "name": "Player Selection Game",
+      "techStack": ["React", "JavaScript", "Tailwind CSS", "React Icons"],
+      "briefDescription": "A web-based cricket player selection game with a budget management system.",
+      "liveLink": "https://example.com/player-selection-game",
+      "githubLink": "https://github.com/username/player-selection-game",
+      "details": {
+        "mainTechStack": ["React", "Tailwind CSS", "JavaScript (ES6+)", "React Hooks"],
+        "description": "This project allows users to select cricket players while managing their budget. Users can build their own team and keep track of their expenses.",
+        "challenges": [
+          "Managing the dynamic updates of player selection and budget.",
+          "Ensuring the UI is responsive and works well on all devices.",
+          "Handling edge cases like exceeding the budget or selecting more players than allowed."
+        ],
+        "improvements": [
+          "I plan to add multiplayer functionality in the future.",
+          "Improving performance for larger teams by optimizing the code and reducing unnecessary re-renders.",
+          "Adding player statistics to help users make better decisions while selecting players."
+        ]
+      }
+    },
+    {
+      "id": 2,
+      "name": "Discount PRO",
+      "techStack": ["React", "Tailwind CSS", "Node.js", "Express"],
+      "briefDescription": "A coupon collecting platform to find and apply discount codes from popular e-commerce stores in Bangladesh.",
+      "liveLink": "https://example.com/discount-pro",
+      "githubLink": "https://github.com/username/discount-pro",
+      "details": {
+        "mainTechStack": ["React", "Node.js", "Express", "MongoDB"],
+        "description": "Discount PRO helps users find and use discount coupons to save money while shopping online.",
+        "challenges": [
+          "Integrating third-party APIs for coupon fetching and applying them to the user's cart.",
+          "Maintaining a smooth user experience when the API response times vary.",
+          "Ensuring security and protection of user data during the coupon application process."
+        ],
+        "improvements": [
+          "Planning to add a mobile app version of the platform for better accessibility.",
+          "Future updates will include a user rating system for coupons to provide more value to users."
+        ]
+      }
+    },
+    {
+      "id": 3,
+      "name": "Chill Gaming",
+      "techStack": ["React", "JavaScript", "Node.js", "Tailwind CSS"],
+      "briefDescription": "A gaming website offering exciting games and competitions for players to participate in and win prizes.",
+      "liveLink": "https://example.com/chill-gaming",
+      "githubLink": "https://github.com/username/chill-gaming",
+      "details": {
+        "mainTechStack": ["React", "Node.js", "MongoDB", "Express"],
+        "description": "Chill Gaming provides a platform for gaming enthusiasts to participate in online competitions and win prizes.",
+        "challenges": [
+          "Building real-time multiplayer features for online competitions.",
+          "Optimizing the user interface to handle a large number of concurrent users.",
+          "Managing server-side logic for game result tracking and prize distribution."
+        ],
+        "improvements": [
+          "Integrating live streaming features for major gaming events.",
+          "Enhancing multiplayer functionality to support larger teams and tournaments.",
+          "Improving the backend to handle a larger scale of players and game sessions."
+        ]
+      }
+    }
+  ]
+  
