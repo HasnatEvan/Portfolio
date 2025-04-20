@@ -25,7 +25,7 @@ const Skills = () => {
     return (
         <section className="bg-[#121518] text-gray-400 py-12">
             <div className="container mx-auto text-center">
-                <h2 className="text-3xl font-bold text-orange-600 mb-8 animate__animated animate__fadeIn">My Skills</h2>
+                <h2 className="text-3xl font-bold text-orange-600 mb-8 animate__animated animate__fadeIn">𝑴𝒚 𝑺𝒌𝒊𝒍𝒍𝒔</h2>
                 <p className="text-lg mb-4 animate__animated animate__fadeIn animate__delay-1s">
                     As a new developer, I have gained experience in various technologies and tools. Here are some of the key skills I have worked with:
                 </p>

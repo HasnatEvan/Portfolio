@@ -5,7 +5,7 @@ const Education = () => {
         <div className="bg-gradient-to-r from-gray-800 via-gray-900 to-black p-8 rounded-lg shadow-2xl">
             <div className="my-12">
                 <h2 className="text-4xl font-extrabold text-white mb-10 text-center border-b-2 border-gray-600 pb-4 animate__animated animate__fadeInUp animate__delay-1s">
-                    Education
+                𝑬𝒅𝒖𝒄𝒂𝒕𝒊𝒐𝒏
                 </h2>
                 {/* SSC Section */}
                 <div className="mb-8 flex flex-col md:flex-row items-start space-x-4 animate__animated animate__fadeInUp animate__delay-2s">

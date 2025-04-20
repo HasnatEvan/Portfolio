@@ -5,7 +5,7 @@ const Experience = () => {
         <section className="bg-[#121518] text-gray-400 py-12">
             <div className="container mx-auto text-center">
                 
-                <h2 className="text-3xl font-bold text-orange-600 mb-8 animate__animated animate__fadeIn">My Experience</h2>
+                <h2 className="text-3xl font-bold text-orange-600 mb-8 animate__animated animate__fadeIn">𝑴𝒚 𝑬𝒙𝒑𝒆𝒓𝒊𝒆𝒏𝒄𝒆</h2>
                 <p className="text-lg mb-4 animate__animated animate__fadeIn animate__delay-1s">
                     As a new developer, I am passionate about creating high-quality websites and applications. Below are some of the experiences I have gained during my journey:
                 </p>

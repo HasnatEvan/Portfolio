@@ -1,44 +1,47 @@
 [
-    {
-      "id": 1,
-      "name": "Player Selection Game",
-      "techStack": ["React", "JavaScript", "Tailwind CSS", "React Icons"],
-      "briefDescription": "A web-based cricket player selection game with a budget management system.",
-      "liveLink": "https://example.com/player-selection-game",
-      "githubLink": "https://github.com/username/player-selection-game",
-      "details": {
-        "mainTechStack": ["React", "Tailwind CSS", "JavaScript (ES6+)", "React Hooks"],
-        "description": "This project allows users to select cricket players while managing their budget. Users can build their own team and keep track of their expenses.",
-        "challenges": [
-          "Managing the dynamic updates of player selection and budget.",
-          "Ensuring the UI is responsive and works well on all devices.",
-          "Handling edge cases like exceeding the budget or selecting more players than allowed."
-        ],
-        "improvements": [
-          "I plan to add multiplayer functionality in the future.",
-          "Improving performance for larger teams by optimizing the code and reducing unnecessary re-renders.",
-          "Adding player statistics to help users make better decisions while selecting players."
-        ]
-      }
-    },
+  {
+    "id": 1,
+    "name": "Volunteer-management",
+    "techStack": ["React", "JavaScript", "Tailwind CSS", "React Icons"],
+    "image": "https://i.ibb.co.com/gtmwbX1/Screenshot-2025-01-26-231038.png",
+    "briefDescription": "A web-based volunteer management system to help users add, manage, and volunteer for posts.",
+    "liveLink": "https://volunteer-management-99706.web.app",
+    "githubLink": "https://github.com/HasnatEvan/volunteer-management-system-Client",
+    "details": {
+      "mainTechStack": ["React", "Tailwind CSS", "JavaScript (ES6+)", "React Hooks", "Firebase", "MongoDB"],
+      "description": "This project allows users to manage volunteer posts, sign up for volunteering opportunities, and keep track of their volunteer work. The system allows users to create, edit, and delete posts, while also enabling other users to volunteer for specific tasks.",
+      "challenges": [
+        "Handling dynamic data flow between frontend and backend using Firebase and MongoDB.",
+        "Ensuring security and privacy for user data, especially with Firebase Authentication.",
+        "Creating a seamless user experience for browsing and managing volunteer posts."
+      ],
+      "improvements": [
+        "Integrating a notification system to alert users about new posts or updates.",
+        "Implementing real-time chat functionality for volunteers to communicate with post creators.",
+        "Optimizing the performance of the app by reducing redundant data fetching and improving loading times."
+      ]
+    }
+  },
+  
     {
       "id": 2,
-      "name": "Discount PRO",
+      "name": "Asset Management System",
       "techStack": ["React", "Tailwind CSS", "Node.js", "Express"],
-      "briefDescription": "A coupon collecting platform to find and apply discount codes from popular e-commerce stores in Bangladesh.",
-      "liveLink": "https://example.com/discount-pro",
+      "image":"https://i.ibb.co.com/ZBWBVkf/Screenshot-2025-01-27-004525.png",
+      "briefDescription": "web app for managing company assets, allowing employees to request items and HR managers to approve/reject. Subscription-based with user profiles.",
+      "liveLink": "https://mange-95052.web.app",
       "githubLink": "https://github.com/username/discount-pro",
       "details": {
         "mainTechStack": ["React", "Node.js", "Express", "MongoDB"],
-        "description": "Discount PRO helps users find and use discount coupons to save money while shopping online.",
+        "description": "A web application designed for managing company assets, where employees can request assets and HR managers can approve, reject, and manage inventory. It supports different asset types, user roles, and subscription plans.",
         "challenges": [
-          "Integrating third-party APIs for coupon fetching and applying them to the user's cart.",
-          "Maintaining a smooth user experience when the API response times vary.",
-          "Ensuring security and protection of user data during the coupon application process."
+          "Integrating third-party APIs for asset management.",
+          "Ensuring smooth performance with varying API response times.",
+          "Securing user data during the asset request and approval process."
         ],
         "improvements": [
-          "Planning to add a mobile app version of the platform for better accessibility.",
-          "Future updates will include a user rating system for coupons to provide more value to users."
+          "Plan to add a mobile app version for better accessibility",
+          "Future updates will include a user rating system for assets to enhance value"
         ]
       }
     },
@@ -46,9 +49,10 @@
       "id": 3,
       "name": "Chill Gaming",
       "techStack": ["React", "JavaScript", "Node.js", "Tailwind CSS"],
+      "image":"https://i.ibb.co.com/c6HyPj5/Screenshot-2025-01-26-225744.png",
       "briefDescription": "A gaming website offering exciting games and competitions for players to participate in and win prizes.",
-      "liveLink": "https://example.com/chill-gaming",
-      "githubLink": "https://github.com/username/chill-gaming",
+      "liveLink": "https://chill-gamer-d8311.web.app",
+      "githubLink": "https://github.com/HasnatEvan/Chill-Gamer-Client",
       "details": {
         "mainTechStack": ["React", "Node.js", "MongoDB", "Express"],
         "description": "Chill Gaming provides a platform for gaming enthusiasts to participate in online competitions and win prizes.",

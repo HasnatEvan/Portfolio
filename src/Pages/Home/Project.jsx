@@ -11,10 +11,10 @@ const Project = () => {
     }, []);
 
     return (
-        <div className="p-8 bg-gradient-to-r from-gray-800 via-gray-900 to-black">
+        <div className="p-8 bg-black to-black">
             {/* Title Section */}
-            <h2 className="text-4xl font-bold text-white text-center  mb-8">
-                My Projects
+            <h2 className="text-4xl font-bold text-orange-600 text-center  mb-8">
+            𝑴𝒚 𝑷𝒓𝒐𝒋𝒆𝒄𝒕𝒔
             </h2>
             
             <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6 bg-gradient-to-r from-gray-800 via-gray-900 to-black">

@@ -9,7 +9,7 @@ const ContactIcon = () => {
     // Function to handle WhatsApp link
     const handleWhatsapp = () => {
         setIsContacting(true); // Set contacting state to true
-        window.location.href = `https://wa.me/8801814197707`; // Redirect to WhatsApp
+        window.location.href = `https://wa.me/8801824481881`; // Redirect to WhatsApp
     };
 
     // Function to scroll to the top of the page
@@ -38,7 +38,7 @@ const ContactIcon = () => {
 
     return (
         isVisible && (
-            <div className="fixed bottom-0 left-0 w-full flex justify-between items-center px-4 md:px-14 py-4 md:py-6 z-50">
+            <div className="fixed bottom-0 left-0 w-full flex justify-between  items-center px-4 md:px-14 py-4 md:py-6 z-50">
                 {/* WhatsApp Icon on the Left */}
                 <div className="flex items-center space-x-3 transform transition-all duration-300">
                     <div

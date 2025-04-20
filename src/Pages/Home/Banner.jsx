@@ -1,6 +1,6 @@
 import React from 'react';
 import BannerImg from '../../assets/Banner/banner.jpg';
-import { FaFacebook, FaGithub, FaTwitter } from "react-icons/fa";
+import { FaFacebook, FaGithub, FaTwitter, FaLinkedin } from "react-icons/fa";
 import 'animate.css'; // Animate.css ইমপোর্ট
 
 const Banner = () => {
@@ -22,19 +22,23 @@ const Banner = () => {
                         <a href="https://www.facebook.com/hasnat.evan.733" target="_blank" rel="noopener noreferrer" aria-label="Facebook" className="text-[#1877F2] hover:opacity-80 hover:scale-110 transition-all duration-300">
                             <FaFacebook />
                         </a>
-                        <a href="#" aria-label="Github" className="text-[#d1bdbd] hover:opacity-80 hover:scale-110 transition-all duration-300">
+                        <a href="https://github.com/HasnatEvan" target="_blank" rel="noopener noreferrer" aria-label="Github" className="text-[#d1bdbd] hover:opacity-80 hover:scale-110 transition-all duration-300">
                             <FaGithub />
                         </a>
-                        <a href="#" aria-label="Twitter" className="text-[#1DA1F2] hover:opacity-80 hover:scale-110 transition-all duration-300">
+                        <a href="#" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="text-[#1DA1F2] hover:opacity-80 hover:scale-110 transition-all duration-300">
                             <FaTwitter />
+                        </a>
+                        <a href="https://www.linkedin.com/in/hasnat-evan-web68" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn" className="text-[#0A66C2] hover:opacity-80 hover:scale-110 transition-all duration-300">
+                            <FaLinkedin />
                         </a>
                     </div>
                     
                     {/* Resume Button */}
                     <div className="flex justify-center lg:justify-start mt-4">
                         <a
-                            href="/path/to/resume.pdf"
-                            download
+                            href="https://www.canva.com/design/DAGcD7vb7NM/0GhfH_zM5w4VmioULy9DEw/edit?utm_content=DAGcD7vb7NM&utm_campaign=designshare&utm_medium=link2&utm_source=sharebutton"
+                            target="_blank"
+                            rel="noopener noreferrer"
                             className="bg-blue-500 text-white py-2 px-4 w-auto text-sm sm:text-base rounded-md hover:bg-blue-600 transition-all duration-300"
                         >
                             Resume Download

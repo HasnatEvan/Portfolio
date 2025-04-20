@@ -10,7 +10,7 @@ import { router } from './Router/Router.jsx';
 createRoot(document.getElementById('root')).render(
   <StrictMode>
   <HelmetProvider>
-  <div className='w-11/12 mx-auto'>
+  <div className='max-w-screen-xl mx-auto'>
    <RouterProvider router={router} />
    </div>
   </HelmetProvider>

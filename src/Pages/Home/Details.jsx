@@ -1,5 +1,6 @@
 import { useLoaderData, useNavigate } from "react-router-dom";
 
+
 const Details = () => {
   const project = useLoaderData();
   const navigate = useNavigate();
@@ -18,7 +19,7 @@ const Details = () => {
       <img
         src={project.image}
         alt={project.name}
-        className="w-full h-64 md:h-80 lg:h-96 object-cover rounded-md mt-12 mb-6"
+        className="w-full h-64 md:h-80 lg:h-[500px] object-cover rounded-md mt-16 mb-6"
       />
 
       {/* Project Description */}

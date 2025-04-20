@@ -5,7 +5,7 @@ const Hobbies = () => {
         <div className="bg-gradient-to-r from-gray-800 via-gray-900 to-black p-8 rounded-lg shadow-2xl text-white">
             <div className="my-6">
                 <h2 className="text-4xl font-extrabold text-center mb-10 border-b-4 border-gray-600 pb-4">
-                    My Hobbies
+                𝑴𝒚 𝑯𝒐𝒃𝒃𝒊𝒆𝒔
                 </h2>
 
                 {/* Hobby Item Component */}

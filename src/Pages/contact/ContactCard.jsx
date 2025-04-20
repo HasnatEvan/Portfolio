@@ -3,16 +3,16 @@ import { motion } from "framer-motion";
 
 const ContactCard = () => {
     return (
-        <div className="mx-auto p-6 bg-gradient-to-r from-gray-800 via-gray-900 to-black ">
+        <div className="mx-auto p-6 bg-gradient-to-r from-gray-800 via-gray-900 to-black">
             {/* Title Section */}
-            <div className="text-center my-12 ">
+            <div className="text-center my-12">
                 <motion.p 
                     className="text-lg font-semibold text-orange-600"
                     initial={{ opacity: 0 }} 
                     animate={{ opacity: 1 }} 
                     transition={{ duration: 1 }}
                 >
-                    --- Visit Us ---
+                    --- ᴠɪꜱɪᴛ ᴜꜱ ---
                 </motion.p>
                 <motion.h2 
                     className="text-4xl font-bold text-gray-400"
@@ -20,7 +20,7 @@ const ContactCard = () => {
                     animate={{ y: 0, opacity: 1 }} 
                     transition={{ duration: 1, delay: 0.2 }}
                 >
-                    OUR LOCATION
+                    𝑶𝑼𝑹 𝑳𝑶𝑪𝑨𝑻𝑰𝑶𝑵
                 </motion.h2>
             </div>
 
@@ -44,6 +44,18 @@ const ContactCard = () => {
                             <span className="text-blue-300">Location</span>
                         </motion.h2>
                         <p className="text-gray-400 mb-4 text-center">I am currently based in Chandanish, Chattogram, Bangladesh.</p>
+                        
+                        {/* Google Map Embed */}
+                        <div className="w-full h-[200px] md:h-[300px] mb-4">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2110.0260254857144!2d92.01635688431325!3d22.24465792218218!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x30ad3d0035e744ef%3A0x776475903936e548!2sPori%20building%20(bgc%20trust&#39;s%20foreigner%20hostel!5e1!3m2!1sen!2sbd!4v1737916028426!5m2!1sen!2sbd"
+                                className="w-full h-full border-none"
+                                allowFullScreen
+                                loading="lazy"
+                                referrerPolicy="no-referrer-when-downgrade"
+                            ></iframe>
+                        </div>
+
                         <div>
                             <a 
                                 href="https://www.google.com/maps?q=Chandanish,Chattogram,Bangladesh" 
@@ -77,10 +89,9 @@ const ContactCard = () => {
                         <p className="text-gray-400 mb-4 text-center">You can email me for business inquiries or questions:</p>
                         <div>
                             <a 
-                                href="mailto:webdeveloperhasnatevan@gmail.com" 
-                                className="text-red-400 hover:text-red-600 transition duration-300"
-                            >
-                                webdeveloperhasnatevan@gmail.com
+                                href="mailto:hasnatevan59@gmail.com" 
+                                className="text-red-400 hover:text-red-600 transition duration-300 text-[12px] lg:text-sm"
+                            >hasnatevan59@gmail.com
                             </a>
                         </div>
                     </div>
@@ -106,12 +117,12 @@ const ContactCard = () => {
                         <p className="text-gray-400 mb-4 text-center">Feel free to contact me on WhatsApp:</p>
                         <div>
                             <a 
-                                href="https://wa.me/+8801814197707" 
+                                href="https://wa.me/+8801824481881" 
                                 target="_blank" 
                                 rel="noopener noreferrer" 
                                 className="text-green-400 hover:text-green-600 transition duration-300"
                             >
-                                +8801814197707
+                                +8801824481881
                             </a>
                         </div>
                     </div>

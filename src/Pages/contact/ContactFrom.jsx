@@ -63,7 +63,7 @@ const ContactForm = () => {
         <section id="contact" className="bg-[#121518] text-gray-400 py-12">
             <div className="container mx-auto px-6 sm:px-12 lg:px-24">
                 <h2 className="text-4xl font-bold text-center animate__animated animate__fadeInUp">
-                    Contact <span className="text-orange-600">Us</span>
+                𝑪𝒐𝒏𝒕𝒂𝒄𝒕 <span className="text-orange-600">𝑼𝒔</span>
                 </h2>
                 <p className="mt-4 text-center text-lg animate__animated animate__fadeInUp animate__delay-1s">
                     Your feedback means the world to us! Please fill out the form below and get in touch with us.

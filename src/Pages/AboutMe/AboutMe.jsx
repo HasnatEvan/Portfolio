@@ -1,16 +1,20 @@
 import { Helmet } from "react-helmet-async";
-import Hobbies from "../Hobbies";
+
 import Education from "./Education";
+import Hobbies from "./Hobbies";
 
 
 const AboutMe = () => {
     return (
         <div>
-             <Helmet>
-                    <title>About Me</title>
-                  </Helmet>
-            <Education></Education>
-            <Hobbies></Hobbies>
+            <Helmet>
+                <title>About Me</title>
+            </Helmet>
+            <div>
+
+                <Education></Education>
+         <Hobbies></Hobbies>
+            </div>
         </div>
     );
 };
